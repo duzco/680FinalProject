@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F429CDD62D10EF99005C2585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F429CDBD2D10EF97005C2585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F429CDC42D10EF97005C2585;
+			remoteInfo = RuckingApp680;
+		};
+		F429CDE02D10EF99005C2585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F429CDBD2D10EF97005C2585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F429CDC42D10EF97005C2585;
+			remoteInfo = RuckingApp680;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F429CDC52D10EF97005C2585 /* RuckingApp680.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuckingApp680.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F429CDD52D10EF99005C2585 /* RuckingApp680Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuckingApp680Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F429CDDF2D10EF99005C2585 /* RuckingApp680UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuckingApp680UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F429CDC72D10EF97005C2585 /* RuckingApp680 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RuckingApp680;
+			sourceTree = "<group>";
+		};
+		F429CDD82D10EF99005C2585 /* RuckingApp680Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RuckingApp680Tests;
+			sourceTree = "<group>";
+		};
+		F429CDE22D10EF99005C2585 /* RuckingApp680UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RuckingApp680UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F429CDC22D10EF97005C2585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F429CDD22D10EF99005C2585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F429CDDC2D10EF99005C2585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F429CDBC2D10EF97005C2585 = {
+			isa = PBXGroup;
+			children = (
+				F429CDC72D10EF97005C2585 /* RuckingApp680 */,
+				F429CDD82D10EF99005C2585 /* RuckingApp680Tests */,
+				F429CDE22D10EF99005C2585 /* RuckingApp680UITests */,
+				F429CDC62D10EF97005C2585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F429CDC62D10EF97005C2585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F429CDC52D10EF97005C2585 /* RuckingApp680.app */,
+				F429CDD52D10EF99005C2585 /* RuckingApp680Tests.xctest */,
+				F429CDDF2D10EF99005C2585 /* RuckingApp680UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F429CDC42D10EF97005C2585 /* RuckingApp680 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F429CDE92D10EF99005C2585 /* Build configuration list for PBXNativeTarget "RuckingApp680" */;
+			buildPhases = (
+				F429CDC12D10EF97005C2585 /* Sources */,
+				F429CDC22D10EF97005C2585 /* Frameworks */,
+				F429CDC32D10EF97005C2585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F429CDC72D10EF97005C2585 /* RuckingApp680 */,
+			);
+			name = RuckingApp680;
+			packageProductDependencies = (
+			);
+			productName = RuckingApp680;
+			productReference = F429CDC52D10EF97005C2585 /* RuckingApp680.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F429CDD42D10EF99005C2585 /* RuckingApp680Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F429CDEC2D10EF99005C2585 /* Build configuration list for PBXNativeTarget "RuckingApp680Tests" */;
+			buildPhases = (
+				F429CDD12D10EF99005C2585 /* Sources */,
+				F429CDD22D10EF99005C2585 /* Frameworks */,
+				F429CDD32D10EF99005C2585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F429CDD72D10EF99005C2585 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F429CDD82D10EF99005C2585 /* RuckingApp680Tests */,
+			);
+			name = RuckingApp680Tests;
+			packageProductDependencies = (
+			);
+			productName = RuckingApp680Tests;
+			productReference = F429CDD52D10EF99005C2585 /* RuckingApp680Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F429CDDE2D10EF99005C2585 /* RuckingApp680UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F429CDEF2D10EF99005C2585 /* Build configuration list for PBXNativeTarget "RuckingApp680UITests" */;
+			buildPhases = (
+				F429CDDB2D10EF99005C2585 /* Sources */,
+				F429CDDC2D10EF99005C2585 /* Frameworks */,
+				F429CDDD2D10EF99005C2585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F429CDE12D10EF99005C2585 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F429CDE22D10EF99005C2585 /* RuckingApp680UITests */,
+			);
+			name = RuckingApp680UITests;
+			packageProductDependencies = (
+			);
+			productName = RuckingApp680UITests;
+			productReference = F429CDDF2D10EF99005C2585 /* RuckingApp680UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F429CDBD2D10EF97005C2585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F429CDC42D10EF97005C2585 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F429CDD42D10EF99005C2585 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F429CDC42D10EF97005C2585;
+					};
+					F429CDDE2D10EF99005C2585 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F429CDC42D10EF97005C2585;
+					};
+				};
+			};
+			buildConfigurationList = F429CDC02D10EF97005C2585 /* Build configuration list for PBXProject "RuckingApp680" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F429CDBC2D10EF97005C2585;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F429CDC62D10EF97005C2585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F429CDC42D10EF97005C2585 /* RuckingApp680 */,
+				F429CDD42D10EF99005C2585 /* RuckingApp680Tests */,
+				F429CDDE2D10EF99005C2585 /* RuckingApp680UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F429CDC32D10EF97005C2585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F429CDD32D10EF99005C2585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F429CDDD2D10EF99005C2585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F429CDC12D10EF97005C2585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F429CDD12D10EF99005C2585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F429CDDB2D10EF99005C2585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F429CDD72D10EF99005C2585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F429CDC42D10EF97005C2585 /* RuckingApp680 */;
+			targetProxy = F429CDD62D10EF99005C2585 /* PBXContainerItemProxy */;
+		};
+		F429CDE12D10EF99005C2585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F429CDC42D10EF97005C2585 /* RuckingApp680 */;
+			targetProxy = F429CDE02D10EF99005C2585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F429CDE72D10EF99005C2585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F429CDE82D10EF99005C2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F429CDEA2D10EF99005C2585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RuckingApp680/Preview Content\"";
+				DEVELOPMENT_TEAM = TM5YADPMLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = user.RuckingApp680;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F429CDEB2D10EF99005C2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RuckingApp680/Preview Content\"";
+				DEVELOPMENT_TEAM = TM5YADPMLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = user.RuckingApp680;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F429CDED2D10EF99005C2585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM5YADPMLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = user.RuckingApp680Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuckingApp680.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RuckingApp680";
+			};
+			name = Debug;
+		};
+		F429CDEE2D10EF99005C2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM5YADPMLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = user.RuckingApp680Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuckingApp680.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RuckingApp680";
+			};
+			name = Release;
+		};
+		F429CDF02D10EF99005C2585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM5YADPMLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = user.RuckingApp680UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RuckingApp680;
+			};
+			name = Debug;
+		};
+		F429CDF12D10EF99005C2585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM5YADPMLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = user.RuckingApp680UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RuckingApp680;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F429CDC02D10EF97005C2585 /* Build configuration list for PBXProject "RuckingApp680" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429CDE72D10EF99005C2585 /* Debug */,
+				F429CDE82D10EF99005C2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F429CDE92D10EF99005C2585 /* Build configuration list for PBXNativeTarget "RuckingApp680" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429CDEA2D10EF99005C2585 /* Debug */,
+				F429CDEB2D10EF99005C2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F429CDEC2D10EF99005C2585 /* Build configuration list for PBXNativeTarget "RuckingApp680Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429CDED2D10EF99005C2585 /* Debug */,
+				F429CDEE2D10EF99005C2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F429CDEF2D10EF99005C2585 /* Build configuration list for PBXNativeTarget "RuckingApp680UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429CDF02D10EF99005C2585 /* Debug */,
+				F429CDF12D10EF99005C2585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F429CDBD2D10EF97005C2585 /* Project object */;
+}
